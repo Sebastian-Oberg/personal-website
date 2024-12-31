@@ -384,6 +384,20 @@ article p {
   border-color: rgb(163, 163, 163);
 }
 
+.about-containers {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px; /* Adjust spacing between items */
+}
+
+.details-container {
+  flex: 1 1 calc(33.333% - 20px); /* Ensure three items per row */
+  max-width: calc(33.333% - 20px);
+  box-sizing: border-box;
+}
+
+
 /* CONTACT */
 #contact {
   display: flex;
